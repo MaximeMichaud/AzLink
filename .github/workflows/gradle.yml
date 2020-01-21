@@ -14,4 +14,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: AzLink-build
-        path: AzLink/build/libs/azlink-universal.jar
+        path: bungee/build/libs/azlink-bungee-1.0-SNAPSHOT.jar

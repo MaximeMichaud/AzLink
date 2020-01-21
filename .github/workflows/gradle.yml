@@ -10,8 +10,8 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew clean shadowJar
+      run: ./gradlew build --warning-mode=all
     - uses: actions/upload-artifact@master
       with:
         name: AzLink-build
-        path: AzLink/build/libs/AzLink.jar
+        path: AzLink/build/libs/azlink-universal.jar

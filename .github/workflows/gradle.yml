@@ -19,19 +19,3 @@ jobs:
       with:
         name: AzLink-Universal-Legacy
         path: universal-legacy/build/libs/AzLink-Legacy-1.0-SNAPSHOT.jar
-    - uses: actions/upload-artifact@master
-      with:
-        name: AzLink-BungeeCord
-        path: bungee/build/libs/azlink-bungee-1.0-SNAPSHOT.jar
-    - uses: actions/upload-artifact@master
-      with:
-        name: AzLink-Bukkit
-        path: bukkit/build/libs/azlink-bukkit-1.0-SNAPSHOT.jar
-    - uses: actions/upload-artifact@master
-      with:
-        name: AzLink-Sponge
-        path: sponge/build/libs/azlink-sponge-1.0-SNAPSHOT.jar
-    - uses: actions/upload-artifact@master
-      with:
-        name: AzLink-Velocity
-        path: velocity/build/libs/azlink-velocity-1.0-SNAPSHOT.jar

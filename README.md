@@ -1,4 +1,4 @@
-# AzLink
+# AzLink (https://github.com/MaximeMichaud/AzLink/workflows/AzLink/badge.svg)](https://github.com/MaximeMichaud/AzLink/workflows/actions?workflow=AzLink)
 
 [![Build Status](https://travis-ci.org/Azuriom/AzLink.svg?branch=master)](https://travis-ci.org/Azuriom/AzLink)
 

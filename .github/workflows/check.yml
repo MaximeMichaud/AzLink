@@ -1,0 +1,8 @@
+name: AzLink
+on: [push, pull_request]
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.0.0
